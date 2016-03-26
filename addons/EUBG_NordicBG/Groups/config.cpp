@@ -1454,7 +1454,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_S_XA203";
+						vehicle = "EUBG_Nordic_S_patgB203";
 						rank = "SERGEANT";
 						position[] = { -5,-5,0 };
 					};
@@ -1527,7 +1527,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_S_XA203";
+						vehicle = "EUBG_Nordic_S_patgB203";
 						rank = "SERGEANT";
 						position[] = { -5,-5,0 };
 					};
@@ -1616,7 +1616,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_S_XA203";
+						vehicle = "EUBG_Nordic_S_patgB203";
 						rank = "SERGEANT";
 						position[] = { -5,-5,0 };
 					};
@@ -1665,7 +1665,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_S_XA203";
+						vehicle = "EUBG_Nordic_S_patgB203";
 						rank = "SERGEANT";
 						position[] = { -5,-5,0 };
 					};
@@ -1692,6 +1692,160 @@ class CfgGroups
 						vehicle = "EUBG_Nordic_S_MAT";
 						rank = "PRIVATE";
 						position[] = { 10,-10,0 };
+					};
+				};
+
+				class EUBG_Nordic_BG_grp_mech_supportheavy
+				{
+					name = "Mechanized Support Squad Heavy";
+					side = "1";
+					faction = "EUBG_Nordic_BG";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_mech_inf.paa";
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_SL";
+						rank = "LIEUTENANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_patgB360";
+						rank = "SERGEANT";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MMG";
+						rank = "CORPORAL";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MMG";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MAT";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit5
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MAT";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MM";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit7
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MM";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+				};
+
+				class EUBG_Nordic_BG_grp_mech_rifleheavy
+				{
+					name = "Mechanized Rifle Squad Heavy";
+					side = "1";
+					faction = "EUBG_Nordic_BG";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_mech_inf.paa";
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_SL";
+						rank = "LIEUTENANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_patgB360";
+						rank = "SERGEANT";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_TL";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+
+					class Unit3
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_Medic";
+						rank = "PRIVATE";
+						position[] = { 10,-10,0 };
+					};
+
+					class Unit4
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_LMG";
+						rank = "PRIVATE";
+						position[] = { -15,-15,0 };
+					};
+
+					class Unit5
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_MMG";
+						rank = "PRIVATE";
+						position[] = { 15,-15,0 };
+					};
+
+					class Unit6
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_GL";
+						rank = "PRIVATE";
+						position[] = { -20,-20,0 };
+					};
+
+					class Unit7
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_LAT";
+						rank = "PRIVATE";
+						position[] = { 20,-20,0 };
+					};
+
+					class Unit8
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_S_AMMO";
+						rank = "PRIVATE";
+						position[] = { -25,-25,0 };
 					};
 				};
 			};

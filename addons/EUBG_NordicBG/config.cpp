@@ -282,6 +282,272 @@ class CfgVehicles
 		magazines[]={"30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","B_IR_Grenade"};
 		respawnMagazines[]={"30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","SmokeShellGreen","SmokeShellGreen","SmokeShellGreen","SmokeShell","SmokeShell","SmokeShell","Chemlight_green","Chemlight_green","B_IR_Grenade"};
 	};
+	
+	class EUBG_Nordic_IRL_Base: B_Soldier_base_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=1;
+		side = 1;
+		displayName="(Ireland) Base";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo";
+		canCarryBackPack=1;
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+	};
+		
+	class EUBG_Nordic_IRL_Base2: B_Soldier_base_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=1;
+		side = 1;
+		displayName="(Ireland) Base2";
+		faction="EUBG_Nordic_BG";
+		genericNames = "EUBG_NordicNames_S";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo2";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		canCarryBackPack=1;
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+	};
+
+	class EUBG_Nordic_IRL_Expl: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Explosive Expert";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_Helmet","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_Helmet","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"arifle_Katiba_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"arifle_Katiba_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_Medic: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Medic";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"arifle_Katiba_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"arifle_Katiba_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_Rifleman: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Rifleman";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_Beaniehat_Green","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_Beaniehat_Green","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"arifle_Katiba_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"arifle_Katiba_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_GL: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Grenadier";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo2";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"arifle_Katiba_GL_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"arifle_Katiba_GL_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_LMG: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Light Machine Gunner";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo2";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_Helmet","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_Helmet","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"LMG_mas_M249_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"LMG_mas_M249_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_T_Stanag","200Rnd_mas_556x45_T_Stanag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_Stanag","200Rnd_mas_556x45_T_Stanag","200Rnd_mas_556x45_T_Stanag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_SL: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Squad Leader";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo2";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_MilCap","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_MilCap","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"arifle_Katiba_GL_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"arifle_Katiba_GL_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_TL: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Team Leader";
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_WLD_Camo2";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		backpack = "EUBG_Nordic_IRL_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_MilCap","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_MilCap","EUBG_Nordic_IRL_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"arifle_Katiba_GL_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"arifle_Katiba_GL_ACO_pointer_F","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","30Rnd_65x39_caseless_green_mag_Tracer","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_Sniper: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Sniper";
+		icon = "iconManRecon";
+		faction="EUBG_Nordic_BG";
+		genericNames = "EUBG_NordicNames_S";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		uniformClass="EUBG_Nordic_IRL_GhillieSuit";
+		model = "\A3\Characters_F\BLUFOR\b_sniper.p3d";
+		backpack = "EUBG_Nordic_S_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_CrewVest","NVGoggles_INDEP","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_CrewVest","NVGoggles_INDEP","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		weapons[]={"EUBG_NordicBG_AG90","EUBG_NordicBG_Pist88","Throw","Put","Laserdesignator_03"};
+		respawnWeapons[]={"EUBG_NordicBG_AG90","EUBG_NordicBG_Pist88","Throw","Put","Laserdesignator_03"};
+		magazines[]={"5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_T_Stanag","5Rnd_mas_127x99_T_Stanag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_Stanag","5Rnd_mas_127x99_T_Stanag","5Rnd_mas_127x99_T_Stanag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
+	class EUBG_Nordic_IRL_Spotter: B_Recon_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		side = 1;
+		displayName="(Ireland) Spotter";
+		icon = "iconManRecon";
+		faction="EUBG_Nordic_BG";
+		genericNames = "EUBG_NordicNames_S";
+		vehicleClass="EUBG_Nordic_IRL";
+		nakedUniform="U_BasicBody";
+		hasDriver = 1;
+		canDeactivateMines = true; 
+		uniformClass="EUBG_Nordic_IRL_GhillieSuit";
+		model = "\A3\Characters_F\BLUFOR\b_sniper.p3d";
+		backpack = "EUBG_Nordic_S_Kitbag_empty";
+		hiddenSelections[]={"Camo","Insignia"};
+		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Uniform.paa"};
+		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_CrewVest","NVGoggles_INDEP","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[]={"EUBG_Nordic_IRL_Booniehat","EUBG_Nordic_CrewVest","NVGoggles_INDEP","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		weapons[]={"EUBG_NordicBG_AK5C","EUBG_NordicBG_Pist88","Throw","Put","Laserdesignator_03"};
+		respawnWeapons[]={"EUBG_NordicBG_AK5C","EUBG_NordicBG_Pist88","Throw","Put","Laserdesignator_03"};
+		magazines[]={"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","30Rnd_mas_556x45_T_Stanag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+	};
+
 	class EUBG_Nordic_LV_Base: B_Soldier_base_F
 	{
 		dlc="NordicBG";
@@ -1577,6 +1843,17 @@ class CfgVehicles
 		maximumLoad = 360;
 	};
 
+	class EUBG_Nordic_IRL_Kitbag_empty : B_Kitbag_sgg 
+	{
+		dlc="NordicBG";
+		author = "OldDutchGamer";
+		scope = 2;
+		displayName = "[EUBG] Ireland Backpack (empty)";
+		picture = "EUBG_NordicBG\Gear\Ireland\uim\Backpack.paa";
+		hiddenSelectionsTextures[] = {"EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Backpack.paa"};
+		maximumLoad = 360;
+	};
+
 	class EUBG_Nordic_LV_Kitbag_empty : B_Kitbag_sgg 
 	{
 		dlc="NordicBG";
@@ -1666,6 +1943,57 @@ class cfgWeapons
 			uniformClass="EUBG_Nordic_FIN_base2";
 			containerClass="Supply60";
 			mass=80;
+		};
+	};
+
+	class EUBG_Nordic_IRL_WLD_Camo: Uniform_Base
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		displayName="[EUBG] Ireland Uniform";
+		picture="\EUBG_NordicBG\Gear\Ireland\uim\Uniform.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="EUBG_Nordic_IRL_Base";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class EUBG_Nordic_IRL_WLD_Camo2: Uniform_Base
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=1;
+		displayName="[EUBG] Ireland Uniform  (Rolled)";
+		picture="\EUBG_NordicBG\Gear\Ireland\uim\Uniform.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="EUBG_Nordic_IRL_Base2";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class EUBG_Nordic_IRL_GhillieSuit: Uniform_Base
+	{
+		dlc="NordicBG";
+        scope = 2;
+        displayName = "[EUBG] Ireland Ghillie suit";
+		picture="\EUBG_NordicBG\Gear\Sweden\uim\Ghillie.paa";
+		model="\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="EUBG_Nordic_IRL_Sniper";
+			containerClass="Supply60";
+			mass=60;
 		};
 	};
 
@@ -1850,6 +2178,74 @@ class cfgWeapons
 					passThrough=0.5;
 				};
 			};
+		};
+	};
+	
+	class EUBG_Nordic_IRL_Helmet : H_HelmetIA 
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[EUBG] Ireland Helmet";
+		picture = "\EUBG_NordicBG\Gear\Ireland\uim\Helmet.paa";
+		model = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Helmet.paa"};
+		
+		class ItemInfo : HeadgearItem {
+			mass = 1;
+			uniformModel = "\A3\Characters_F_Beta\INDEP\headgear_helmet_canvas";
+			modelSides[] = {3, 1};
+			hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Helmet.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Head
+				{
+					hitpointName="HitHead";
+					armor=6;
+					passThrough=0.5;
+				};
+			};
+		};
+	};
+	
+	class EUBG_Nordic_IRL_MilCap: HelmetBase
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		displayName = "[EUBG] Ireland Military Cap";
+		picture = "\EUBG_NordicBG\Gear\Ireland\uim\MilCap.paa";
+		model="\A3\Characters_F\Common\cappatrol";
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Ireland\IRL_Woodland_MilCap.paa"};
+
+		class ItemInfo: ItemInfo
+		{
+			mass=6;
+			allowedSlots[]={901,701,605};
+			uniformModel="\A3\Characters_F\Common\cappatrol.p3d";
+			modelSides[]={6};
+		};
+	};
+
+	class EUBG_Nordic_IRL_Booniehat: HelmetBase
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope=2;
+		displayName = "[EUBG] Ireland Booniehat";
+		picture = "\EUBG_NordicBG\Gear\Ireland\uim\Booniehat.paa";
+		model="\A3\Characters_F\Common\booniehat";
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Booniehat.paa"};
+
+		class ItemInfo: ItemInfo
+		{
+			mass=10;
+			allowedSlots[]={801,901,701,605};
+			uniformModel="\A3\Characters_F\Common\booniehat";
+			modelSides[]={6};
 		};
 	};
 	
@@ -2150,6 +2546,52 @@ class cfgWeapons
 			mass = 20;
 			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
 			hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Finland\FIN_Woodland_Vest.paa"};
+			hiddenSelections[] = {"camo"};
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					HitpointName="HitChest";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Diaphragm
+				{
+					HitpointName="HitDiaphragm";
+					armor=16;
+					PassThrough=0.30000001;
+				};
+				class Abdomen
+				{
+					hitpointName="HitAbdomen";
+					armor=16;
+					passThrough=0.30000001;
+				};
+				class Body
+				{
+					hitpointName="HitBody";
+					passThrough=0.30000001;
+				};
+			};
+		};
+	};
+	
+	class EUBG_Nordic_IRL_Vest : V_PlateCarrier1_blk 
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "[EUBG] Ireland Vest";
+		picture = "\EUBG_NordicBG\Gear\Ireland\uim\Vest.paa";
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Vest.paa"};
+		
+		class ItemInfo : ItemInfo {
+			mass = 20;
+			uniformmodel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+			hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Gear\Ireland\IRL_Woodland_Vest.paa"};
 			hiddenSelections[] = {"camo"};
 			class HitpointsProtectionInfo
 			{
