@@ -62,6 +62,12 @@ class CfgVehicles
 		hiddenSelections[]={"Camo","Insignia"};
 		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Finland\FIN_Woodland_Uniform.paa"};
 		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
+		linkedItems[]={"EUBG_Nordic_FIN_Helmet","EUBG_Nordic_FIN_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[]={"EUBG_Nordic_FIN_Helmet","EUBG_Sordic_FIN_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		weapons[]={"EUBG_NordicBG_RK62","hgun_mas_glock_F","Throw","Put","Binocular"};
+		respawnWeapons[]={"EUBG_NordicBG_RK62","hgun_mas_glock_F","Throw","Put","Binocular"};
+		magazines[]={"30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
+		respawnMagazines[]={"30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
 	};
 		
 	class EUBG_Nordic_FIN_Base2: B_Soldier_base_F
@@ -86,26 +92,11 @@ class CfgVehicles
 
 	class EUBG_Nordic_FIN_TL: EUBG_Nordic_FIN_Base
 	{
-		dlc="NordicBG";
-		author="OldDutchGamer";
 		scope=2;
-		side = 1;
 		displayName="(Finland) Team Leader";
-		faction="EUBG_Nordic_BG";
-		vehicleClass="EUBG_Nordic_FIN";
-		nakedUniform="U_BasicBody";
-		hasDriver = 1;
-		uniformClass="EUBG_Nordic_FIN_WLD_Camo";
 		backpack = "EUBG_Nordic_FIN_Kitbag_empty";
-		hiddenSelections[]={"Camo","Insignia"};
-		hiddenSelectionsTextures[]={"EUBG_NordicBG\Gear\Finland\FIN_Woodland_Uniform.paa"};
-		hiddenSelectionsMaterials[]={"EUBG_Main\rvmat\uniform\data\Uniform.rvmat"};
-		linkedItems[]={"EUBG_Nordic_FIN_Helmet","EUBG_Nordic_FIN_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[]={"EUBG_Nordic_FIN_Helmet","EUBG_Nordic_FIN_Vest","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[]={"EUBG_NordicBG_RK62_M203","hgun_mas_glock_F","Throw","Put","Laserdesignator_03"};
 		respawnWeapons[]={"EUBG_NordicBG_RK62_M203","hgun_mas_glock_F","Throw","Put","Laserdesignator_03"};
-		magazines[]={"30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
-		respawnMagazines[]={"30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","30Rnd_mas_545x39_T_mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag","17Rnd_mas_9x21_Mag"};
 	};
 
 	class EUBG_Nordic_FIN_Medic: EUBG_Nordic_FIN_Base
