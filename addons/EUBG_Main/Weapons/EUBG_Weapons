@@ -1,0 +1,109 @@
+this linkItem "NVGoggles_OPFOR";
+
+//AWM
+this addWeapon "srifle_DMR_06_olive_F";
+this addPrimaryWeaponItem "muzzle_snds_B";
+this addPrimaryWeaponItem "optic_DMS";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addItemToUniform "20Rnd_762x51_Mag";
+
+//M107
+this addWeapon "srifle_GM6_F";
+this addPrimaryWeaponItem "optic_AMS";
+this addItemToUniform "5Rnd_127x108_Mag";
+this addItemToUniform "5Rnd_127x108_APDS_Mag";
+
+//FN MAG
+this addWeapon "MMG_02_black_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_ACO_grn_smg";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addItemToBackpack "130Rnd_338_Mag";
+
+//FN Minimi
+this addWeapon "LMG_Mk200_F";
+this addPrimaryWeaponItem "optic_ACO_grn_smg";
+this addItemToBackpack "200Rnd_65x39_cased_Box";
+this addItemToBackpack "200Rnd_65x39_cased_Box_Tracer";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+
+//G36
+this addWeapon "arifle_Katiba_F";
+this addWeapon "arifle_Katiba_GL_F";
+this addItemToUniform "30Rnd_65x39_caseless_green";
+this addItemToUniform "30Rnd_65x39_caseless_green_mag_Tracer";
+
+//Steyr
+this addWeapon "arifle_TRG21_F";
+this addWeapon "arifle_TRG21_GL_F";
+this addWeapon "arifle_TRG20_F";
+this addPrimaryWeaponItem "muzzle_snds_M";
+this addPrimaryWeaponItem "optic_Hamr";
+this addItemToBackpack "30Rnd_556x45_Stanag";
+this addItemToBackpack "30Rnd_556x45_Stanag_Tracer_Red";
+
+//APEX Gear & Weapons.
+
+//Minimi
+this addWeapon "LMG_03_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_Holosight_smg_blk_F";
+this addItemToBackpack "200Rnd_556x45_Box_F";
+this addItemToBackpack "200Rnd_556x45_Box_Red_F";
+this addItemToBackpack "200Rnd_556x45_Box_Tracer_F";
+this addItemToBackpack "200Rnd_556x45_Box_Tracer_Red_F";
+
+//HK416
+this addWeapon "arifle_SPAR_01_blk_F";
+this addPrimaryWeaponItem "muzzle_snds_m_blk_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_ERCO_blk_F";
+this addItemToBackpack "30Rnd_556x45_Stanag_Tracer_Red";
+this addItemToBackpack "30Rnd_556x45_Stanag_Tracer_Green";
+this addItemToBackpack "30Rnd_556x45_Stanag_Tracer_Yellow";
+this addItemToBackpack "30Rnd_556x45_Stanag_red";
+this addItemToBackpack "30Rnd_556x45_Stanag_green";
+this addItemToBackpack "30Rnd_556x45_Stanag";
+
+//HK416 M203
+this addWeapon "arifle_SPAR_01_GL_blk_F";
+this addPrimaryWeaponItem "muzzle_snds_m_blk_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_ERCO_blk_F";
+this addItemToBackpack "1Rnd_HE_Grenade_shell";
+
+//HK416 SMG
+this addWeapon "arifle_SPAR_02_blk_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_ERCO_blk_F";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addItemToBackpack "150Rnd_556x45_Drum_Mag_F";
+this addItemToBackpack "150Rnd_556x45_Drum_Mag_Tracer_F";
+
+//HK417 
+this addWeapon "arifle_SPAR_03_blk_F";
+this addPrimaryWeaponItem "muzzle_snds_B_blk_F";
+this addPrimaryWeaponItem "acc_pointer_IR";
+this addPrimaryWeaponItem "optic_SOS_blk_F";
+this addPrimaryWeaponItem "bipod_01_F_blk";
+this addItemToBackpack "20Rnd_762x51_Mag";
+
+// RK62
+this addWeapon "arifle_AK12_F";
+this addPrimaryWeaponItem "optic_Holosight_blk_F";
+this addItemToBackpack "30Rnd_762x39_Mag_F";
+this addItemToBackpack "30Rnd_762x39_Mag_Green_F";
+this addItemToBackpack "30Rnd_762x39_Mag_Tracer_F";
+this addItemToBackpack "30Rnd_762x39_Mag_Tracer_Green_F";
+
+// RK62TK
+this addWeapon "arifle_AK12_GL_F";
+this addPrimaryWeaponItem "optic_Holosight_blk_F";
+
+// Gear
+
+this linkItem "NVGogglesB_grn_F";
+this linkItem "NVGogglesB_blk_F";
+
+
+

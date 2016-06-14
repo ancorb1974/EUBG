@@ -11,17 +11,17 @@ class CfgPatches
 class CfgVehicles
 {
 
-	class O_APC_Wheeled_02_rcws_F;
 	class B_MRAP_01_F;
 	class B_MRAP_01_hmg_F;
-	class I_APC_Wheeled_03_cannon_F;
 	class B_APC_Wheeled_01_cannon_F;
-	class I_Truck_02_transport_F;
+	class I_APC_Wheeled_03_cannon_F;
+	class O_APC_Wheeled_02_rcws_F;
+	class I_Truck_02_ammo_F;
+	class I_Truck_02_box_F;
 	class I_Truck_02_covered_F;
 	class I_Truck_02_fuel_F;
-	class I_Truck_02_box_F;
 	class I_Truck_02_medical_F;
-	class I_Truck_02_ammo_F;
+	class I_Truck_02_transport_F;
 
 	class EUBG_Nordic_S_PatgB203: O_APC_Wheeled_02_rcws_F
 	{
@@ -34,8 +34,9 @@ class CfgVehicles
 		vehicleClass="EUBG_Nordic_S_Wheeled";
 		crew = "EUBG_Nordic_S_Crew";
 		typicalCargo[] = {"EUBG_Nordic_S_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\patgB203\patgB203_body_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patgB203\patgB203_wheels_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patgB203\patgB203_turret_S_co.paa"};
+		textureList[] = {"",1};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] = {"EUBG_NordicBG\Vehicles\Wheeled\PatgB203\PatgB203_body_S_co.paa", "EUBG_NordicBG\Vehicles\Wheeled\PatgB203\PatgB203_wheels_S_co.paa", "EUBG_NordicBG\Vehicles\Wheeled\PatgB203\PatgB203_turret_S_co.paa"};
 
 		class TransportItems {
 			class _xx_FirstAidKit {
@@ -71,14 +72,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -89,7 +90,7 @@ class CfgVehicles
 		};
 		class TransportWeapons {};
 	};
-
+	
 	class EUBG_Nordic_S_RG32: B_MRAP_01_F
 	{
 		dlc="NordicBG";
@@ -101,7 +102,7 @@ class CfgVehicles
 		vehicleClass="EUBG_Nordic_S_Wheeled";
 		crew = "EUBG_Nordic_S_Rifleman";
 		typicalCargo[] = {"EUBG_Nordic_S_Rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\RG32\rg32_body_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\RG32\rg32_wheels_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patgB203\patgB203_turret_S_co.paa"};
 
 		class TransportItems {
@@ -138,14 +139,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -168,7 +169,7 @@ class CfgVehicles
 		vehicleClass="EUBG_Nordic_S_Wheeled";
 		crew = "EUBG_Nordic_S_Rifleman";
 		typicalCargo[] = {"EUBG_Nordic_S_Rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\RG32\rg32_body_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\RG32\rg32_wheels_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patgB203\patgB203_turret_S_co.paa"};
 
 		class TransportItems {
@@ -205,14 +206,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -272,14 +273,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -302,7 +303,7 @@ class CfgVehicles
 		vehicleClass="EUBG_Nordic_N_Wheeled";
 		crew = "EUBG_Nordic_N_Rifleman";
 		typicalCargo[] = {"EUBG_Nordic_N_Rifleman"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\IvecoLMV\IvecoLMV_body_N_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\IvecoLMV\IvecoLMV_wheels_N_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\IvecoLMV\IvecoLMV_Turret_N_co.paa"};
 
 		class TransportItems {
@@ -339,81 +340,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
 				count=10;
 			};
-			class _xx_NLAW_F
+			class _xx_130Rnd_338_Mag
 			{
-				magazine="NLAW_F";
-				count=5;
-			};
-		};
-		class TransportWeapons {};
-	};
-
-	class EUBG_Nordic_IRL_Mowag: I_APC_Wheeled_03_cannon_F
-	{
-		dlc="NordicBG";
-		author = "OldDutchGamer";
-		scope = 2;
-		displayName = "Mowag Piranha III";
-		side = 1;
-		faction="EUBG_Nordic_BG";
-		vehicleClass="EUBG_Nordic_IRL_Wheeled";
-		crew = "EUBG_Nordic_S_Crew";
-		typicalCargo[] = {"EUBG_Nordic_S_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3","Camo4"};
-		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_body_IRL_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_wheels_IRL_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_turret_IRL_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_alpha_IRL_co.paa"};
-
-		class TransportItems {
-			class _xx_FirstAidKit {
-				name = "FirstAidKit";
-				count = 10;
-			};
-		};
-		
-		class TransportMagazines
-		{
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=10;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=10;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=25;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
-			class _xx_200Rnd_65x39_cased_Box
-			{
-				magazine="200Rnd_65x39_cased_Box";
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -436,7 +370,7 @@ class CfgVehicles
 		vehicleClass="EUBG_Nordic_S_Wheeled";
 		crew = "EUBG_Nordic_S_Crew";
 		typicalCargo[] = {"EUBG_Nordic_S_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
 		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\PatgB360\PatgB360_body_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\PatgB360\PatgB360_wheels_S_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\PatgB360\PatgB360_turret_S_co.paa"};
 
 		class TransportItems {
@@ -473,81 +407,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
 				count=10;
 			};
-			class _xx_NLAW_F
+			class _xx_130Rnd_338_Mag
 			{
-				magazine="NLAW_F";
-				count=5;
-			};
-		};
-		class TransportWeapons {};
-	};
-
-	class EUBG_Nordic_FIN_PatriaAMV: B_APC_Wheeled_01_cannon_F
-	{
-		dlc="NordicBG";
-		author = "OldDutchGamer";
-		scope = 2;
-		displayName = "Patria AMV";
-		side = 1;
-		faction="EUBG_Nordic_BG";
-		vehicleClass="EUBG_Nordic_FIN_Wheeled";
-		crew = "EUBG_Nordic_FIN_Crew";
-		typicalCargo[] = {"EUBG_Nordic_FIN_Crew"};
-		hiddenSelections[] = {"Camo1", "Camo2","Camo3"};
-		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\patriaAMV\patria_body_FIN_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patriaAMV\patria_wheels_FIN_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patriaAMV\patria_turret_FIN_co.paa"};
-
-		class TransportItems {
-			class _xx_FirstAidKit {
-				name = "FirstAidKit";
-				count = 10;
-			};
-		};
-		
-		class TransportMagazines
-		{
-			class _xx_1Rnd_HE_Grenade_shell
-			{
-				magazine="1Rnd_HE_Grenade_shell";
-				count=10;
-			};
-			class _xx_HandGrenade
-			{
-				magazine="HandGrenade";
-				count=5;
-			};
-			class _xx_SmokeShell
-			{
-				magazine="SmokeShell";
-				count=10;
-			};
-			class _xx_SmokeShellGreen
-			{
-				magazine="SmokeShellGreen";
-				count=5;
-			};
-			class _xx_30Rnd_65x39_caseless_mag
-			{
-				magazine="30Rnd_65x39_caseless_mag";
-				count=25;
-			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
-			class _xx_200Rnd_65x39_cased_Box
-			{
-				magazine="200Rnd_65x39_cased_Box";
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -606,14 +473,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -672,14 +539,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -738,14 +605,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -804,14 +671,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -870,14 +737,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -936,14 +803,14 @@ class CfgVehicles
 				magazine="30Rnd_65x39_caseless_mag";
 				count=25;
 			};
-			class _xx_100Rnd_65x39_caseless_mag
-			{
-				magazine="100Rnd_65x39_caseless_mag";
-				count=10;
-			};
 			class _xx_200Rnd_65x39_cased_Box
 			{
 				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
 				count=10;
 			};
 			class _xx_NLAW_F
@@ -955,3 +822,209 @@ class CfgVehicles
 		class TransportWeapons {};
 	};
 };
+
+
+/*
+
+	class EUBG_Nordic_S_PatgB203: O_APC_Wheeled_02_rcws_F
+	{
+		dlc="NordicBG";
+		author = "OldDutchGamer";
+		scope = 2;
+		displayName = "PatgB 203";
+		side = 1;
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_S_Wheeled";
+		crew = "EUBG_Nordic_S_Crew";
+		typicalCargo[] = {"EUBG_Nordic_S_Crew"};
+		textureList[] = {"",1};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] = {"EUBG_NordicBG\Vehicles\Wheeled\PatgB203\PatgB203_body_S_co.paa", "EUBG_NordicBG\Vehicles\Wheeled\PatgB203\PatgB203_wheels_S_co.paa", "EUBG_NordicBG\Vehicles\Wheeled\PatgB203\PatgB203_turret_S_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+
+	class EUBG_Nordic_IRL_Mowag: I_APC_Wheeled_03_cannon_F
+	{
+		dlc="NordicBG";
+		author = "OldDutchGamer";
+		scope = 2;
+		displayName = "Mowag Piranha III";
+		side = 1;
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_IRL_Wheeled";
+		crew = "EUBG_Nordic_S_Crew";
+		typicalCargo[] = {"EUBG_Nordic_S_Crew"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4"};
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_body_IRL_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_wheels_IRL_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_turret_IRL_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\MowagPiranha\Mowag_alpha_IRL_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+
+	class EUBG_Nordic_FIN_PatriaAMV: B_APC_Wheeled_01_cannon_F
+	{
+		dlc="NordicBG";
+		author = "OldDutchGamer";
+		scope = 2;
+		displayName = "Patria AMV";
+		side = 1;
+		faction="EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_FIN_Wheeled";
+		crew = "EUBG_Nordic_FIN_Crew";
+		typicalCargo[] = {"EUBG_Nordic_FIN_Crew"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3"};
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Wheeled\patriaAMV\patria_body_FIN_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patriaAMV\patria_wheels_FIN_co.paa", "\EUBG_NordicBG\Vehicles\Wheeled\patriaAMV\patria_turret_FIN_co.paa"};
+
+		class TransportItems {
+			class _xx_FirstAidKit {
+				name = "FirstAidKit";
+				count = 10;
+			};
+		};
+		
+		class TransportMagazines
+		{
+			class _xx_1Rnd_HE_Grenade_shell
+			{
+				magazine="1Rnd_HE_Grenade_shell";
+				count=10;
+			};
+			class _xx_HandGrenade
+			{
+				magazine="HandGrenade";
+				count=5;
+			};
+			class _xx_SmokeShell
+			{
+				magazine="SmokeShell";
+				count=10;
+			};
+			class _xx_SmokeShellGreen
+			{
+				magazine="SmokeShellGreen";
+				count=5;
+			};
+			class _xx_30Rnd_65x39_caseless_mag
+			{
+				magazine="30Rnd_65x39_caseless_mag";
+				count=25;
+			};
+			class _xx_200Rnd_65x39_cased_Box
+			{
+				magazine="200Rnd_65x39_cased_Box";
+				count=10;
+			};
+			class _xx_130Rnd_338_Mag
+			{
+				magazine="130Rnd_338_Mag";
+				count=10;
+			};
+			class _xx_NLAW_F
+			{
+				magazine="NLAW_F";
+				count=5;
+			};
+		};
+		class TransportWeapons {};
+	};
+*/

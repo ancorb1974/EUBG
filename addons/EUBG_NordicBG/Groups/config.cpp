@@ -553,7 +553,7 @@ class CfgGroups
 				};
 				class EUBG_Nordic_BG_grp_qrf_mmgteam
 				{
-					name = "QRF Medium machinegun team";
+					name = "(Latvia) QRF Medium machinegun team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -594,7 +594,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_atteam
 				{
-					name = "QRF Anti-Tank team";
+					name = "(Latvia) QRF Anti-Tank team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -635,7 +635,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_engineers
 				{
-					name = "QRF Enginering team";
+					name = "(Latvia) QRF Enginering team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -676,7 +676,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_squad
 				{
-					name = "QRF Rifle Squad";
+					name = "(Latvia) QRF Rifle Squad";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -749,7 +749,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_matteam
 				{
-					name = "QRF Medium Anti-Tank team";
+					name = "(Latvia) QRF Medium Anti-Tank team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -790,7 +790,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_cmdr
 				{
-					name = "QRF HQ team";
+					name = "(Latvia) QRF HQ team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -799,7 +799,7 @@ class CfgGroups
 					class Unit0
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_LV_Officer";
+						vehicle = "EUBG_Nordic_LV_SL";
 						rank = "LIEUTENANT";
 						position[] = { 0,0,0 };
 					};
@@ -807,7 +807,7 @@ class CfgGroups
 					class Unit1
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_LV_SL";
+						vehicle = "EUBG_Nordic_LV_TL";
 						rank = "SERGEANT";
 						position[] = { -5,-5,0 };
 					};
@@ -823,7 +823,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_aateam
 				{
-					name = "QRF Anti-Air team";
+					name = "(Latvia) QRF Anti-Air team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -864,7 +864,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_weaponsquad
 				{
-					name = "QRF Weapons Squad";
+					name = "(Latvia) QRF Weapons Squad";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -937,7 +937,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_team_LV
 				{
-					name = "QRF Fireteam";
+					name = "(Latvia) QRF Fireteam";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -978,7 +978,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_explosive
 				{
-					name = "QRF Explosives team";
+					name = "(Latvia) QRF Explosives team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1019,7 +1019,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_qrf_sentry
 				{
-					name = "QRF Sentry";
+					name = "(Latvia) QRF Sentry";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1049,7 +1049,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_sf_sniper
 				{
-					name = "Sniper team";
+					name = "(Sweden) Sniper team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1074,7 +1074,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_sf_diver_demo
 				{
-					name = "Diver Demolition team";
+					name = "(Sweden) Diver Demolition team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1115,7 +1115,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_sf_diver_recovery
 				{
-					name = "Diver Recovery team";
+					name = "(Sweden) Diver Recovery team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1156,7 +1156,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_sf_diver_assault
 				{
-					name = "Diver assault team";
+					name = "(Sweden) Diver assault team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1201,7 +1201,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_motor_hmg
 				{
-					name = "Motorized HMG Team";
+					name = "(Sweden) Motorized HMG Team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1234,7 +1234,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_motor_team
 				{
-					name = "Motorized Team";
+					name = "(Sweden) Motorized Team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1307,7 +1307,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_motor_aa
 				{
-					name = "Motorized Air-defence Team";
+					name = "(Sweden) Motorized Air-defence Team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1340,7 +1340,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_motor_hq
 				{
-					name = "Motorized HQ Team";
+					name = "(Sweden) Motorized HQ Team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1373,7 +1373,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_motor_recon
 				{
-					name = "Motorized Recon Team";
+					name = "(Sweden) Motorized Recon Team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1398,7 +1398,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_motor_at
 				{
-					name = "Motorized Anti-Tank Team";
+					name = "(Sweden) Motorized Anti-Tank Team";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1437,7 +1437,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_mech_support
 				{
-					name = "Mechanized Support Squad";
+					name = "(Sweden) Mechanized Support Squad";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1510,7 +1510,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_mech_rifle
 				{
-					name = "Mechanized Rifle Squad";
+					name = "(Sweden) Mechanized Rifle Squad";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1599,7 +1599,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_mech_aa
 				{
-					name = "Mechanized Air-defence Squad";
+					name = "(Sweden) Mechanized Air-defence Squad";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1648,7 +1648,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_mech_at
 				{
-					name = "Mechanized Anti-armor Squad";
+					name = "(Sweden) Mechanized Anti-armor Squad";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1697,7 +1697,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_mech_supportheavy
 				{
-					name = "Mechanized Support Squad Heavy";
+					name = "(Sweden) Mechanized Support Squad Heavy";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1770,7 +1770,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_mech_rifleheavy
 				{
-					name = "Mechanized Rifle Squad Heavy";
+					name = "(Sweden) Mechanized Rifle Squad Heavy";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1855,7 +1855,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_armor_platoon
 				{
-					name = "Armor Platoon (Strf90)";
+					name = "(Sweden) Armor Platoon (Strf90)";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
@@ -1896,7 +1896,7 @@ class CfgGroups
 
 				class EUBG_Nordic_BG_grp_armor_section
 				{
-					name = "Armor Section (Strf90)";
+					name = "(Sweden) Armor Section (Strf90)";
 					side = "1";
 					faction = "EUBG_Nordic_BG";
 					rarityGroup = 0.5;
