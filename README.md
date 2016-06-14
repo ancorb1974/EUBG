@@ -1,4 +1,3 @@
-# EUBG
 # **European Union BattleGroup for Arma 3**
 
 
