@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=eubg_main
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '4A0EDF73EEBBA4952CC810F1C3607420FDEF2A58'
+//////</HEADER>//////

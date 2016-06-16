@@ -12,10 +12,8 @@ class CfgWeapons
 {
 
 	// ext class ref
-	class arifle_MX_F;
-	class arifle_MXC_F;
-	class arifle_MX_GL_F;
 	class arifle_MX_Black_F;
+	class arifle_MXC_Black_F;
 	class arifle_MX_GL_Black_F;
 	class arifle_Katiba_F;
 	class arifle_Katiba_GL_F;
@@ -30,7 +28,7 @@ class CfgWeapons
 	class LMG_03_F;
 	class MMG_02_black_F;
 //Sweden
-	class EUBG_NordicBG_AK5C_F: arifle_MX_F
+	class EUBG_NordicBG_AK5C_F: arifle_MX_Black_F
 	{
 		dlc="NordicBG";
 		author="OldDutchGamer";
@@ -65,7 +63,7 @@ class CfgWeapons
 		};
 	};
 
-	class EUBG_NordicBG_AK5D_F: arifle_MXC_F
+	class EUBG_NordicBG_AK5D_F: arifle_MXC_Black_F
 	{
 		dlc="NordicBG";
 		author="OldDutchGamer";
@@ -98,7 +96,7 @@ class CfgWeapons
 		};
 	};
 
-	class EUBG_NordicBG_AK5C_M203_F: arifle_MX_GL_F
+	class EUBG_NordicBG_AK5C_M203_F: arifle_MX_GL_Black_F
 	{
 		dlc="NordicBG";
 		author="OldDutchGamer";
