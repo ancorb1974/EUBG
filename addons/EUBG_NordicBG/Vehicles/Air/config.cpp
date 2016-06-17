@@ -14,6 +14,48 @@ class CfgVehicles
 	class B_Heli_Transport_01_camo_F;
 	class O_Heli_Light_02_unarmed_F;
 	class NH90;
+	class JS_JC_FA18E;
+	class JS_JC_FA18F;
+
+	class EUBG_Nordic_FIN_FA18E: JS_JC_FA18E
+	{
+		dlc="NordicBG";
+		author = "OldDutchGamer";
+		scope = 2;
+		side = 1;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		faction = "EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_FIN_Air";
+		displayName = "F/A-18 E Super Hornet";
+		editorPreview = "\EUBG_Main\logo\NordicBG\Finland_Flag.paa";
+		crew = "EUBG_Nordic_FIN_FighterPilot";
+		typicalCargo[] = {"EUBG_Nordic_FIN_FighterPilot"};
+		hiddenSelections[] = {"camo_hull","camo_misc","camo_center_fueltank","camo_cockpit_1","camo_cockpit_2","camo_MFD","camo_glass","camo_ladder","burner_fire_1_left","burner_fire_1_right","camo_buddy_pod"};
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Air\F18\fa18e_hull_co.paa","\EUBG_NordicBG\Vehicles\Air\F18\fa18_misc_co.paa","","\js_jc_fa18\data\fa18_cockpit1_co.paa","\js_jc_fa18\data\fa18_cockpit2_ca.paa","\js_jc_fa18\data\fa18_mfd_co.paa","\js_jc_fa18\data\fa18_glass_ca.paa","\js_jc_fa18\data\fa18_ladder_co.paa","\js_jc_fa18\data\fa18_engine_fire_ca.paa","\js_jc_fa18\data\fa18_engine_fire_ca.paa","\js_jc_fa18\data\fa18_misc_co.paa"};
+		maxSpeed = 2205;
+		editorSubcategory = "EdSubcat_Planes";
+	};
+
+	class EUBG_Nordic_FIN_FA18F: JS_JC_FA18F
+	{
+		dlc="NordicBG";
+		author = "OldDutchGamer";
+		scope = 2;
+		side = 1;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+		faction = "EUBG_Nordic_BG";
+		vehicleClass="EUBG_Nordic_FIN_Air";
+		displayName = "F/A-18 F Super Hornet";
+		editorPreview = "\EUBG_Main\logo\NordicBG\Finland_Flag.paa";
+		crew = "EUBG_Nordic_FIN_FighterPilot";
+		typicalCargo[] = {"EUBG_Nordic_FIN_FighterPilot"};
+		hiddenSelections[] = {"camo_hull","camo_misc","camo_center_fueltank","camo_cockpit_1","camo_cockpit_2","camo_MFD","camo_glass","camo_ladder","burner_fire_1_left","burner_fire_1_right","camo_buddy_pod"};
+		hiddenSelectionsTextures[] = {"\EUBG_NordicBG\Vehicles\Air\F18\fa18f_hull_co.paa","\EUBG_NordicBG\Vehicles\Air\F18\fa18_misc_co.paa","","\js_jc_fa18\data\fa18_cockpit1_co.paa","\js_jc_fa18\data\fa18_cockpit2_ca.paa","\js_jc_fa18\data\fa18_mfd_co.paa","\js_jc_fa18\data\fa18_glass_ca.paa","\js_jc_fa18\data\fa18_ladder_co.paa","\js_jc_fa18\data\fa18_engine_fire_ca.paa","\js_jc_fa18\data\fa18_engine_fire_ca.paa","\js_jc_fa18\data\fa18_misc_co.paa"};
+		maxSpeed = 2205;
+		editorSubcategory = "EdSubcat_Planes";
+	};
 
 	class EUBG_Nordic_S_hkp15: O_Heli_Light_02_unarmed_F
 	{

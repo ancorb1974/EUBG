@@ -23,10 +23,14 @@ class CfgWeapons
 	class arifle_AK12_F;
 	class arifle_AK12_GL_F;
 	class hgun_P07_F;
+	class SMG_05_F;
 	class srifle_GM6_F;
 	class srifle_DMR_06_olive_F;
 	class LMG_03_F;
 	class MMG_02_black_F;
+	class launch_NLAW_F;
+	class launch_B_Titan_short_tna_F;
+	class launch_B_Titan_tna_F;
 //Sweden
 	class EUBG_NordicBG_AK5C_F: arifle_MX_Black_F
 	{
@@ -135,14 +139,14 @@ class CfgWeapons
 	{
 		dlc="NordicBG";
 		author="OldDutchGamer";
-		displayName="[EUBG] Ksp 58";
+		displayName="[EUBG] Ksp 58D";
 		Scope=1;
 		class LinkedItems
 		{
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_ACO_grn_smg";
+				item="optic_Holosight_blk_F";
 			};
 		};
 	};
@@ -158,7 +162,7 @@ class CfgWeapons
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_Holosight_smg_blk_F";
+				item="optic_Holosight_blk_F";
 			};
 		};
 	};
@@ -212,7 +216,30 @@ class CfgWeapons
 		displayName="[EUBG] Pist 88";
 		Scope=1;
 	};
-
+	
+	class EUBG_NordicBG_RBS57: launch_NLAW_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		displayName="[EUBG] RBS 57";
+		Scope=1;
+	};
+	
+	class EUBG_NordicBG_RBS55: launch_B_Titan_short_tna_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		displayName="[EUBG] RBS 55";
+		Scope=1;
+	};
+	
+	class EUBG_NordicBG_RBS69: launch_B_Titan_tna_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		displayName="[EUBG] RBS 69";
+		Scope=1;
+	};
 //Finland
 	class EUBG_NordicBG_RK62: arifle_AK12_F
 	{
@@ -321,6 +348,22 @@ class CfgWeapons
 		Scope=1;
 	};
 	
+	class EUBG_NordicBG_MP5: SMG_05_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		displayName="[EUBG] MP5";
+		Scope=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_Holosight_blk_F";
+			};
+		};
+	};
+	
 	class EUBG_NordicBG_FNMAG: MMG_02_black_F
 	{
 		dlc="NordicBG";
@@ -348,7 +391,7 @@ class CfgWeapons
 			class LinkedItemsOptic
 			{
 				slot="CowsSlot";
-				item="optic_Holosight_smg_blk_F";
+				item="optic_Holosight_blk_F";
 			};
 		};
 	};
@@ -358,6 +401,27 @@ class CfgWeapons
 		dlc="NordicBG";
 		author="OldDutchGamer";
 		displayName="[EUBG] AWM";
+		Scope=1;
+		class LinkedItems
+		{
+			class LinkedItemsOptic
+			{
+				slot="CowsSlot";
+				item="optic_DMS";
+			};
+			class LinkedItemsUnder
+			{
+				slot="UnderBarrelSlot";
+				item="bipod_01_F_blk";
+			};
+		};
+	};
+	
+	class EUBG_NordicBG_FRF2: srifle_DMR_06_olive_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		displayName="[EUBG] FR F2";
 		Scope=1;
 		class LinkedItems
 		{
@@ -393,5 +457,13 @@ class CfgWeapons
 				item="bipod_01_F_blk";
 			};
 		};
+	};
+	
+	class EUBG_NordicBG_NLAW: launch_NLAW_F
+	{
+		dlc="NordicBG";
+		author="OldDutchGamer";
+		displayName="[EUBG] NLAW";
+		Scope=1;
 	};
 };

@@ -106,4 +106,15 @@ this linkItem "NVGogglesB_grn_F";
 this linkItem "NVGogglesB_blk_F";
 
 
+// NLAW (LAT)
+this addWeapon "launch_NLAW_F";
+this addItemToBackpack "NLAW_F";
 
+// MAT/RBS 55
+this addWeapon "launch_B_Titan_short_tna_F";
+this addItemToBackpack "Titan_AT";
+this addItemToBackpack "Titan_AP";
+
+// Stinger/RBS69
+this addWeapon "launch_B_Titan_tna_F";
+this addItemToBackpack "Titan_AA";

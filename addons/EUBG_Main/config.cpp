@@ -64,51 +64,105 @@ class CfgMarkers
 {
 	class flag_USA;
 
-	class EUBG_Marker: flag_USA
+	class EUBG_EUBG_Marker: flag_USA
 	{
 		name="[EUBG] Euro BattleGroup";
 		icon="\EUBG_Main\logo\EUBG\EUBG.paa";
 	};
 
-	class NLD_LowTac_Marker: flag_USA
+	class EUBG_Estonia_Marker: flag_USA
+	{
+		name="Estonia";
+		icon="\EUBG_Main\logo\NordicBG\Estonia_Icon.paa";
+	};
+
+	class EUBG_Finland_Marker: flag_USA
+	{
+		name="Finland";
+		icon="\EUBG_Main\logo\NordicBG\Finland_Icon.paa";
+	};
+
+	class EUBG_Ireland_Marker: flag_USA
+	{
+		name="Ireland";
+		icon="\EUBG_Main\logo\NordicBG\Ireland_Icon.paa";
+	};
+
+	class EUBG_Latvia_Marker: flag_USA
+	{
+		name="Latvia";
+		icon="\EUBG_Main\logo\NordicBG\Latvia_Icon.paa";
+	};
+
+	class EUBG_Lithuania_Marker: flag_USA
+	{
+		name="Lithuania";
+		icon="\EUBG_Main\logo\NordicBG\Lithuania_Icon.paa";
+	};
+
+	class EUBG_NordicBG_Marker: flag_USA
 	{
 		name="[EUBG] Nordic BattleGroup";
 		icon="\EUBG_Main\logo\NordicBG\NordicBG.paa";
 	};
 
-	class EUBG_Sweden: flag_USA
+	class EUBG_Sweden_Marker: flag_USA
 	{
 		name="Sweden";
 		icon="\EUBG_Main\logo\NordicBG\Sweden_Icon.paa";
-	};
-
-	class EUBG_Finland: flag_USA
-	{
-		name="Finland";
-		icon="\EUBG_Main\logo\NordicBG\Finland_Icon.paa";
 	};
 };
 class CfgVehicles
 {
 	class FlagCarrier;
 
-	class EUBG_NordicBG_Sweden_Flag: FlagCarrier
+	class EUBG_Estonia_Flag: FlagCarrier
 	{
-		displayName="Flag (Sweden)";
+		displayName="Flag (Estonia)";
 		scope=2;
 		class EventHandlers
 		{
-			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Sweden_Flag.paa""";
+			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Estonia_Flag.paa""";
 		};
 	};
 
-	class EUBG_NordicBG_Finland_Flag: FlagCarrier
+	class EUBG_Finland_Flag: FlagCarrier
 	{
 		displayName="Flag (Finland)";
 		scope=2;
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Finland_Flag.paa""";
+		};
+	};
+
+	class EUBG_Ireland_Flag: FlagCarrier
+	{
+		displayName="Flag (Ireland)";
+		scope=2;
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Ireland_Flag.paa""";
+		};
+	};
+
+	class EUBG_Latvia_Flag: FlagCarrier
+	{
+		displayName="Flag (Latvia)";
+		scope=2;
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Latvia_Flag.paa""";
+		};
+	};
+
+	class EUBG_Lithuania_Flag: FlagCarrier
+	{
+		displayName="Flag (Lithuania)";
+		scope=2;
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Lithuania_Flag.paa""";
 		};
 	};
 
@@ -119,6 +173,26 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\NordicBG_Flag.paa""";
+		};
+	};
+
+	class EUBG_Norway_Flag: FlagCarrier
+	{
+		displayName="Flag (Norway)";
+		scope=2;
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Norway_Flag.paa""";
+		};
+	};
+
+	class EUBG_Sweden_Flag: FlagCarrier
+	{
+		displayName="Flag (Sweden)";
+		scope=2;
+		class EventHandlers
+		{
+			init="(_this select 0) setFlagTexture ""\EUBG_Main\logo\NordicBG\Sweden_Flag.paa""";
 		};
 	};
 };

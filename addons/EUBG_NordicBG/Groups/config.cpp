@@ -20,6 +20,47 @@ class CfgGroups
 			{
 				name = "Infantry";
 
+				class EUBG_Nordic_BG_grp_team_FIN
+				{
+					name = "(Finland) Fireteam";
+					side = "1";
+					faction = "EUBG_Nordic_BG";
+					rarityGroup = 0.5;
+					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_FIN_TL";
+						rank = "SERGEANT";
+						position[] = { 0,0,0 };
+					};
+
+					class Unit1
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_FIN_Rifleman";
+						rank = "CORPORAL";
+						position[] = { -5,-5,0 };
+					};
+
+					class Unit2
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_FIN_Medic";
+						rank = "PRIVATE";
+						position[] = { 5,-5,0 };
+					};
+
+					class Unit3
+					{
+						side = 1;
+						vehicle = "EUBG_Nordic_FIN_LAT";
+						rank = "PRIVATE";
+						position[] = { -10,-10,0 };
+					};
+				};
+
 				class EUBG_Nordic_BG_grp_mmgteam
 				{
 					name = "(Sweden) Medium machinegun team";
@@ -445,47 +486,6 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_team_FIN
-				{
-					name = "(Finland) Fireteam";
-					side = "1";
-					faction = "EUBG_Nordic_BG";
-					rarityGroup = 0.5;
-					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
-
-					class Unit0
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_FIN_TL";
-						rank = "SERGEANT";
-						position[] = { 0,0,0 };
-					};
-
-					class Unit1
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_FIN_Rifleman";
-						rank = "CORPORAL";
-						position[] = { -5,-5,0 };
-					};
-
-					class Unit2
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_FIN_MMG";
-						rank = "PRIVATE";
-						position[] = { 5,-5,0 };
-					};
-
-					class Unit3
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_FIN_Medic";
-						rank = "PRIVATE";
-						position[] = { -10,-10,0 };
-					};
-				};
-
 				class EUBG_Nordic_BG_grp_explosive
 				{
 					name = "(Sweden) Explosives team";
@@ -551,48 +551,8 @@ class CfgGroups
 						position[] = { -5,-5,0 };
 					};
 				};
-				class EUBG_Nordic_BG_grp_qrf_mmgteam
-				{
-					name = "(Latvia) QRF Medium machinegun team";
-					side = "1";
-					faction = "EUBG_Nordic_BG";
-					rarityGroup = 0.5;
-					icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
 
-					class Unit0
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_LV_TL";
-						rank = "SERGEANT";
-						position[] = { 0,0,0 };
-					};
-
-					class Unit1
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_LV_MMG";
-						rank = "CORPORAL";
-						position[] = { -5,-5,0 };
-					};
-
-					class Unit2
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_LV_MMG";
-						rank = "PRIVATE";
-						position[] = { 5,-5,0 };
-					};
-
-					class Unit3
-					{
-						side = 1;
-						vehicle = "EUBG_Nordic_LV_AMMO";
-						rank = "PRIVATE";
-						position[] = { -10,-10,0 };
-					};
-				};
-
-				class EUBG_Nordic_BG_grp_qrf_atteam
+				class EUBG_Nordic_BG_grp_atteam_LV
 				{
 					name = "(Latvia) QRF Anti-Tank team";
 					side = "1";
@@ -633,7 +593,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_engineers
+				class EUBG_Nordic_BG_grp_engineers_LV
 				{
 					name = "(Latvia) QRF Enginering team";
 					side = "1";
@@ -674,7 +634,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_squad
+				class EUBG_Nordic_BG_grp_squad_LV
 				{
 					name = "(Latvia) QRF Rifle Squad";
 					side = "1";
@@ -709,7 +669,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_LV_MMG";
+						vehicle = "EUBG_Nordic_LV_LMG";
 						rank = "PRIVATE";
 						position[] = { -10,-10,0 };
 					};
@@ -747,7 +707,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_matteam
+				class EUBG_Nordic_BG_grp_matteam_LV
 				{
 					name = "(Latvia) QRF Medium Anti-Tank team";
 					side = "1";
@@ -788,7 +748,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_cmdr
+				class EUBG_Nordic_BG_grp_cmdr_LV
 				{
 					name = "(Latvia) QRF HQ team";
 					side = "1";
@@ -821,7 +781,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_aateam
+				class EUBG_Nordic_BG_grp_aateam_LV
 				{
 					name = "(Latvia) QRF Anti-Air team";
 					side = "1";
@@ -862,7 +822,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_weaponsquad
+				class EUBG_Nordic_BG_grp_weaponsquad_LV
 				{
 					name = "(Latvia) QRF Weapons Squad";
 					side = "1";
@@ -897,7 +857,7 @@ class CfgGroups
 					class Unit3
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_LV_MMG";
+						vehicle = "EUBG_Nordic_LV_LMG";
 						rank = "PRIVATE";
 						position[] = { -10,-10,0 };
 					};
@@ -935,7 +895,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_team_LV
+				class EUBG_Nordic_BG_grp_team_LV
 				{
 					name = "(Latvia) QRF Fireteam";
 					side = "1";
@@ -962,7 +922,7 @@ class CfgGroups
 					class Unit2
 					{
 						side = 1;
-						vehicle = "EUBG_Nordic_LV_MMG";
+						vehicle = "EUBG_Nordic_LV_LMG";
 						rank = "PRIVATE";
 						position[] = { 5,-5,0 };
 					};
@@ -976,7 +936,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_explosive
+				class EUBG_Nordic_BG_grp_explosive_LV
 				{
 					name = "(Latvia) QRF Explosives team";
 					side = "1";
@@ -1017,7 +977,7 @@ class CfgGroups
 					};
 				};
 
-				class EUBG_Nordic_BG_grp_qrf_sentry
+				class EUBG_Nordic_BG_grp_sentry_LV
 				{
 					name = "(Latvia) QRF Sentry";
 					side = "1";
