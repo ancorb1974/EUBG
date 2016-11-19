@@ -11,11 +11,14 @@ class CfgPatches
 
 class CfgGroups
 {
+	
 	class West
 	{
+
 		class EUBG_Nordic_BG
 		{
 			name = "[EUBG] Nordic BattleGroup";
+
 			class Infantry
 			{
 				name = "Infantry";
